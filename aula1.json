@@ -1,0 +1,178 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Machine Learning",
+            "inteligência artificial"
+        ],
+        "text": [
+            "O que é Machine Learning e como se diferencia das outras modalidades de inteligência artificial?"
+        ],
+        "alternatives": [
+            {
+                "text": "Machine Learning é um tipo de algoritmo utilizado na programação tradicional para automatizar tarefas rotineiras.",
+                "feedback": "Essa opção está incorreta. Machine Learning não é um tipo de algoritmo utilizado na programação tradicional, mas sim uma abordagem que permite que um sistema aprenda a partir dos dados.",
+                "correct": false
+            },
+            {
+                "text": "Machine Learning é uma técnica de inteligência artificial que utiliza regras pré-definidas para tomar decisões com base em dados.",
+                "feedback": "Essa opção está incorreta. Machine Learning não utiliza regras pré-definidas, mas sim aprende a partir dos dados sem ser explicitamente programado.",
+                "correct": false
+            },
+            {
+                "text": "Machine Learning é uma abordagem que permite que um sistema aprenda a partir dos dados, sem ser explicitamente programado, diferentemente da programação tradicional.",
+                "feedback": "Parabéns! Essa opção está correta. Machine Learning é uma abordagem que possibilita que um sistema aprenda a partir dos dados, sem ser explicitamente programado, ao contrário da programação tradicional.",
+                "correct": true
+            },
+            {
+                "text": "Machine Learning é um conjunto de ferramentas que combina algoritmos de busca e lógica simbólica para resolver problemas complexos.",
+                "feedback": "Essa opção está incorreta. Embora Machine Learning utilize algoritmos, não se limita a algoritmos de busca e lógica simbólica.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "atendimento ao cliente",
+            "suporte"
+        ],
+        "text": [
+            "Quais são as vantagens de utilizar o Chat GPT da OpenAI em aplicações de atendimento ao cliente e suporte?"
+        ],
+        "alternatives": [
+            {
+                "text": "Respostas instantâneas e disponibilidade 24 horas por dia.",
+                "feedback": "Parabéns! Essa opção está correta. O Chat GPT da OpenAI oferece respostas instantâneas e está disponível 24 horas por dia para auxiliar no atendimento ao cliente e suporte.",
+                "correct": true
+            },
+            {
+                "text": "Capacidade de responder a perguntas complexas com base em dados pré-existentes.",
+                "feedback": "Parabéns! Essa opção está correta. O Chat GPT da OpenAI tem a capacidade de responder a perguntas complexas com base em dados pré-existentes, auxiliando no atendimento ao cliente e suporte.",
+                "correct": true
+            },
+            {
+                "text": "Personalização das respostas de acordo com o contexto e as necessidades do cliente.",
+                "feedback": "Parabéns! Essa opção está correta. O Chat GPT da OpenAI permite a personalização das respostas de acordo com o contexto e as necessidades do cliente, melhorando o atendimento ao cliente e suporte.",
+                "correct": true
+            },
+            {
+                "text": "Redução de custos operacionais ao automatizar o atendimento ao cliente.",
+                "feedback": "Parabéns! Essa opção está correta. O uso do Chat GPT da OpenAI possibilita a redução de custos operacionais ao automatizar o atendimento ao cliente.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "tokenizer"
+        ],
+        "text": [
+            "O que é um tokenizer no contexto do Chat GPT da OpenAI?"
+        ],
+        "alternatives": [
+            {
+                "text": "Um recurso que realiza a tokenização de textos para facilitar o processamento e análise pelo modelo de linguagem.",
+                "feedback": "Parabéns! Essa opção está correta. No contexto do Chat GPT da OpenAI, um tokenizer é um recurso utilizado para realizar a tokenização de textos, o que facilita o processamento e a análise pelo modelo de linguagem.",
+                "correct": true
+            },
+            {
+                "text": "Um modelo de aprendizado de máquina que converte texto em imagens para gerar respostas visuais.",
+                "feedback": "Essa opção está incorreta. Um tokenizer não converte texto em imagens, mas sim realiza a divisão do texto em unidades menores (tokens) para processamento.",
+                "correct": false
+            },
+            {
+                "text": "Um mecanismo que traduz automaticamente o texto em diferentes idiomas para facilitar a comunicação multilíngue.",
+                "feedback": "Essa opção está incorreta. Embora a comunicação multilíngue seja importante, um tokenizer não é responsável pela tradução automática de textos.",
+                "correct": false
+            },
+            {
+                "text": "Uma biblioteca de códigos-fonte que possibilita a integração do Chat GPT em diferentes plataformas.",
+                "feedback": "Essa opção está incorreta. Embora a integração em diferentes plataformas seja possível, um tokenizer não se trata de uma biblioteca de códigos-fonte.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "tokenizer"
+        ],
+        "text": [
+            "Qual é a importância do tokenizer no processo de geração de respostas pelo Chat GPT?"
+        ],
+        "alternatives": [
+            {
+                "text": "O tokenizer permite dividir o texto em unidades menores (tokens) para que o modelo de linguagem possa processá-lo com mais eficiência.",
+                "feedback": "Parabéns! Essa opção está correta. O tokenizer é importante no processo de geração de respostas, pois permite a divisão do texto em unidades menores (tokens), o que facilita o processamento pelo modelo de linguagem.",
+                "correct": true
+            },
+            {
+                "text": "O tokenizer fornece sugestões de palavras e frases para enriquecer as respostas geradas pelo modelo de linguagem.",
+                "feedback": "Essa opção está incorreta. Embora o modelo de linguagem possa gerar respostas enriquecidas, o tokenizer não é responsável por fornecer sugestões de palavras e frases.",
+                "correct": false
+            },
+            {
+                "text": "O tokenizer garante a segurança e a privacidade das informações compartilhadas durante as interações no Chat GPT.",
+                "feedback": "Essa opção está incorreta. Embora a segurança e a privacidade sejam importantes, o tokenizer não está diretamente relacionado a esses aspectos.",
+                "correct": false
+            },
+            {
+                "text": "O tokenizer é responsável por adaptar o modelo de linguagem para diferentes idiomas, permitindo a comunicação multilíngue.",
+                "feedback": "Essa opção está incorreta. Embora a comunicação multilíngue seja relevante, o tokenizer não é responsável por adaptar o modelo de linguagem para diferentes idiomas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "OpenAI",
+            "Chat GPT"
+        ],
+        "text": [
+            "Qual é a diferença entre a OpenAI e o Chat GPT?"
+        ],
+        "alternatives": [
+            {
+                "text": "A OpenAI é uma organização de pesquisa e desenvolvimento em inteligência artificial, enquanto o Chat GPT é um dos modelos de linguagem desenvolvidos pela OpenAI.",
+                "feedback": "Parabéns! Essa opção está correta. A OpenAI é uma organização de pesquisa e desenvolvimento em inteligência artificial, e o Chat GPT é um dos modelos de linguagem desenvolvidos por ela.",
+                "correct": true
+            },
+            {
+                "text": "A OpenAI é uma biblioteca de códigos-fonte abertos para desenvolvedores, enquanto o Chat GPT é um software de chatbot independente.",
+                "feedback": "Essa opção está incorreta. Embora a OpenAI ofereça bibliotecas de códigos-fonte, ela não se limita a isso, e o Chat GPT não é um software de chatbot independente.",
+                "correct": false
+            },
+            {
+                "text": "A OpenAI é um modelo de linguagem voltado para aplicações de conversação, enquanto o Chat GPT é um framework para criação de chatbots personalizados.",
+                "feedback": "Essa opção está incorreta. Embora a OpenAI desenvolva modelos de linguagem, ela não é um modelo específico voltado para aplicações de conversação, e o Chat GPT não é um framework.",
+                "correct": false
+            },
+            {
+                "text": "A OpenAI é uma empresa de consultoria em inteligência artificial, enquanto o Chat GPT é um serviço de suporte técnico online.",
+                "feedback": "Essa opção está incorreta. Embora a OpenAI possa oferecer serviços de consultoria, ela não é exclusivamente uma empresa de consultoria, e o Chat GPT não é um serviço de suporte técnico online.",
+                "correct": false
+            }
+        ]
+    }
+]

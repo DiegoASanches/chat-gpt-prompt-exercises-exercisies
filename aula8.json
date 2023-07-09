@@ -1,0 +1,18 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "parâmetros da resposta"],
+        "text": [
+            "Qual parâmetro é utilizado para ajustar a frequência de palavras repetidas no texto gerado pela chamada 'openai.createChatCompletion()'?"
+        ],
+        "alternatives": [
+            {"text": "frequency_penalty", "feedback":"Correto! O parâmetro 'frequency_penalty' é utilizado para ajustar a frequência de palavras repetidas no texto gerado pela chamada da API 'openai.createChatCompletion()'. Valores mais altos penalizam a repetição de palavras, enquanto valores mais baixos permitem repetições.", "correct":true},
+            {"text": "temperature", "feedback":"O parâmetro 'temperature' é utilizado para ajustar a aleatoriedade do texto gerado, não a frequência de palavras repetidas.", "correct":false},
+            {"text": "max_tokens", "feedback":"O parâmetro 'max_tokens' é utilizado para controlar o número máximo de tokens no texto gerado, não a frequência de palavras repetidas.", "correct":false},
+            {"text": "stop", "feedback":"O parâmetro 'stop' é utilizado para especificar uma sequência de texto na qual a geração do modelo deve parar, não para ajustar a frequência de palavras repetidas.", "correct":false}
+        ]
+    }
+]

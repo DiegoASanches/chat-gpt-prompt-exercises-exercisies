@@ -1,0 +1,178 @@
+[
+    {
+        "SKU": "BE-TS-007",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "tokens",
+            "tokenizer",
+            "cálculo"
+        ],
+        "text": [
+            "Quantos tokens aproximadamente existem no seguinte texto: 'Eu amo inteligência artificial'"
+        ],
+        "alternatives": [
+            {
+                "text": "8 tokens",
+                "feedback": "Essa alternativa está incorreta. Para calcular a quantidade aproximada de tokens, dividimos o texto em unidades menores, considerando que um token normalmente tem em média 4 caracteres. Portanto, o número de tokens será maior que 8.",
+                "correct": false
+            },
+            {
+                "text": "12 tokens",
+                "feedback": "Correto! Para calcular a quantidade aproximada de tokens, dividimos o texto em unidades menores, considerando que um token normalmente tem em média 4 caracteres. Nesse texto, temos aproximadamente 12 tokens.",
+                "correct": true
+            },
+            {
+                "text": "20 tokens",
+                "feedback": "Essa alternativa está incorreta. Para calcular a quantidade aproximada de tokens, dividimos o texto em unidades menores, considerando que um token normalmente tem em média 4 caracteres. Portanto, o número de tokens será menor que 20.",
+                "correct": false
+            },
+            {
+                "text": "24 tokens",
+                "feedback": "Essa alternativa está incorreta. Para calcular a quantidade aproximada de tokens, dividimos o texto em unidades menores, considerando que um token normalmente tem em média 4 caracteres. Portanto, o número de tokens será menor que 24.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "tokens",
+            "tokenizer"
+        ],
+        "text": [
+            "O que é um tokenizer?"
+        ],
+        "alternatives": [
+            {
+                "text": "Um tokenizer é uma ferramenta para verificação ortográfica em linguagens de programação.",
+                "feedback": "Essa alternativa está incorreta. Um tokenizer é uma ferramenta que divide uma sequência de texto em unidades menores, como palavras, frases ou símbolos, a fim de facilitar o processamento ou a análise posterior.",
+                "correct": false
+            },
+            {
+                "text": "Um tokenizer é um algoritmo de compressão de dados utilizado em armazenamento em nuvem.",
+                "feedback": "Essa alternativa está incorreta. Embora a compressão de dados seja importante em sistemas de armazenamento em nuvem, um tokenizer refere-se a uma ferramenta de processamento de texto, não a um algoritmo de compressão.",
+                "correct": false
+            },
+            {
+                "text": "Um tokenizer é uma ferramenta para dividir um texto em unidades menores, como palavras ou símbolos.",
+                "feedback": "Correto! Um tokenizer é uma ferramenta usada para dividir uma sequência de texto em unidades menores, como palavras, frases ou símbolos. Isso facilita o processamento de texto e análises subsequentes.",
+                "correct": true
+            },
+            {
+                "text": "Um tokenizer é uma biblioteca para construir interfaces gráficas em linguagens de programação.",
+                "feedback": "Essa alternativa está incorreta. Embora as bibliotecas de interface gráfica sejam relevantes no desenvolvimento de aplicativos, um tokenizer é específico para processamento de texto, não para construção de interfaces gráficas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "tokens",
+            "vantagens"
+        ],
+        "text": [
+            "Quais são as vantagens de usar tokens no processamento de linguagem natural?"
+        ],
+        "alternatives": [
+            {
+                "text": "Os tokens reduzem o desempenho e a eficiência dos modelos de IA.",
+                "feedback": "Essa alternativa está incorreta. Os tokens são unidades básicas de texto que facilitam o processamento de linguagem natural e o treinamento de modelos de IA. Eles não reduzem o desempenho ou a eficiência dos modelos.",
+                "correct": false
+            },
+            {
+                "text": "Os tokens simplificam a complexidade das tarefas de processamento de linguagem natural.",
+                "feedback": "Correto! Os tokens simplificam o processamento de linguagem natural, dividindo o texto em unidades menores e mais gerenciáveis. Isso ajuda a reduzir a complexidade das tarefas de processamento e análise de texto.",
+                "correct": true
+            },
+            {
+                "text": "Os tokens aumentam o consumo de recursos computacionais durante a inferência.",
+                "feedback": "Essa alternativa está incorreta. Embora o uso de tokens possa exigir recursos computacionais adicionais durante o processamento, eles não aumentam o consumo de recursos durante a inferência de modelos de IA.",
+                "correct": false
+            },
+            {
+                "text": "Os tokens são desnecessários e não oferecem benefícios no processamento de linguagem natural.",
+                "feedback": "Essa alternativa está incorreta. Os tokens são uma parte fundamental do processamento de linguagem natural, pois ajudam a dividir o texto em unidades menores e facilitam o processamento e a análise de texto.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "tokens",
+            "OpenAI"
+        ],
+        "text": [
+            "Como a tecnologia da OpenAI utiliza tokens?"
+        ],
+        "alternatives": [
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para otimizar o tempo de resposta de consultas em bancos de dados.",
+                "feedback": "Essa alternativa está incorreta. Embora a OpenAI utilize tecnologia avançada, como a tokenização, seu foco principal é o processamento de linguagem natural e a geração de texto, não a otimização de bancos de dados.",
+                "correct": false
+            },
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para melhorar a compreensão de documentos e sequências de texto.",
+                "feedback": "Correto! A tecnologia da OpenAI utiliza tokens para representar unidades básicas de texto, permitindo uma melhor compreensão e processamento de documentos ou sequências de texto. Isso possibilita a geração de texto coerente e contextualmente relevante.",
+                "correct": true
+            },
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para realizar cálculos complexos em algoritmos de aprendizado de máquina.",
+                "feedback": "Essa alternativa está incorreta. Embora a OpenAI utilize algoritmos de aprendizado de máquina em sua tecnologia, os tokens não são usados para realizar cálculos complexos. Eles são usados principalmente para representar e processar texto.",
+                "correct": false
+            },
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para criar gráficos e visualizações de dados.",
+                "feedback": "Essa alternativa está incorreta. Embora a OpenAI possa utilizar tecnologias de visualização de dados, os tokens são principalmente usados para processamento de linguagem natural, não para criação de gráficos e visualizações.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "tokenizer",
+            "vantagens"
+        ],
+        "text": [
+            "Quais são as vantagens de usar um tokenizer no processamento de texto?"
+        ],
+        "alternatives": [
+            {
+                "text": "Um tokenizer aumenta a complexidade das análises de texto e dificulta o processamento.",
+                "feedback": "Essa alternativa está incorreta. Um tokenizer é uma ferramenta que divide o texto em unidades menores, facilitando o processamento e reduzindo a complexidade das análises de texto.",
+                "correct": false
+            },
+            {
+                "text": "Um tokenizer melhora a legibilidade do texto final gerado por modelos de IA.",
+                "feedback": "Essa alternativa está incorreta. Embora um tokenizer seja usado para dividir o texto, ele não está diretamente relacionado à legibilidade do texto final gerado por modelos de IA. A legibilidade depende mais dos próprios modelos e algoritmos utilizados.",
+                "correct": false
+            },
+            {
+                "text": "Um tokenizer facilita a análise de sentimentos em redes sociais e comentários online.",
+                "feedback": "Essa alternativa está incorreta. Embora um tokenizer possa ser usado como parte do processamento de análise de sentimentos, sua principal função é dividir o texto em unidades menores para facilitar o processamento em geral, não apenas a análise de sentimentos.",
+                "correct": false
+            },
+            {
+                "text": "Um tokenizer facilita o processamento de texto, dividindo-o em unidades menores, como palavras ou símbolos.",
+                "feedback": "Correto! Um tokenizer é uma ferramenta que divide o texto em unidades menores, como palavras, frases ou símbolos, facilitando o processamento e a análise posterior. Isso permite que as informações sejam processadas de maneira mais eficiente e eficaz.",
+                "correct": true
+            }
+        ]
+    }
+]

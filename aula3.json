@@ -1,0 +1,182 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "openAI",
+            "openAI playground",
+            "openAI Models"
+        ],
+        "text": [
+            "Qual é a plataforma da OpenAI que permite experimentar e testar modelos de linguagem?"
+        ],
+        "alternatives": [
+            {
+                "text": "OpenAI Playground",
+                "feedback": "Correto! O OpenAI Playground é uma plataforma que permite experimentar e testar modelos de linguagem.",
+                "correct": true
+            },
+            {
+                "text": "OpenAI Studio",
+                "feedback": "Incorreto. O OpenAI Studio não é a plataforma específica para experimentar e testar modelos de linguagem.",
+                "correct": false
+            },
+            {
+                "text": "OpenAI Hub",
+                "feedback": "Incorreto. O OpenAI Hub não é a plataforma específica para experimentar e testar modelos de linguagem.",
+                "correct": false
+            },
+            {
+                "text": "OpenAI Engine",
+                "feedback": "Incorreto. O OpenAI Engine não é a plataforma específica para experimentar e testar modelos de linguagem.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "openAI",
+            "openAI playground",
+            "openAI Models"
+        ],
+        "text": [
+            "Qual é o principal objetivo da OpenAI?"
+        ],
+        "alternatives": [
+            {
+                "text": "Desenvolver inteligência artificial poderosa e segura para beneficiar toda a humanidade.",
+                "feedback": "Correto! A missão da OpenAI é desenvolver inteligência artificial poderosa e segura para beneficiar toda a humanidade.",
+                "correct": true
+            },
+            {
+                "text": "Criar modelos de linguagem avançados.",
+                "feedback": "Incorreto. Embora a OpenAI crie modelos de linguagem avançados, esse não é o objetivo central da empresa.",
+                "correct": false
+            },
+            {
+                "text": "Dominar o mercado de inteligência artificial.",
+                "feedback": "Incorreto. Embora a OpenAI seja uma empresa líder em inteligência artificial, seu objetivo vai além de simplesmente dominar o mercado.",
+                "correct": false
+            },
+            {
+                "text": "Ajudar empresas a automatizar processos.",
+                "feedback": "Incorreto. Embora a OpenAI possa ajudar empresas em automação, esse não é o objetivo central da empresa.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "openAI",
+            "openAI playground",
+            "openAI Models"
+        ],
+        "text": [
+            "Quais são os modelos de linguagem mais conhecidos da OpenAI?"
+        ],
+        "alternatives": [
+            {
+                "text": "GPT-3.5 e davinci-003",
+                "feedback": "Correto! GPT-3.5 e davinci-003 são exemplos de modelos de linguagem desenvolvidos pela OpenAI.",
+                "correct": true
+            },
+            {
+                "text": "Bert e Elmo",
+                "feedback": "Incorreto. Bert e Elmo são modelos de linguagem desenvolvidos por outras organizações, não pela OpenAI.",
+                "correct": false
+            },
+            {
+                "text": "BERT e GPT-2",
+                "feedback": "Incorreto. Embora o GPT-2 seja um modelo de linguagem da OpenAI, o GPT-3.5 é mais recente e avançado.",
+                "correct": false
+            },
+            {
+                "text": "GPT-3 e GPT-4",
+                "feedback": "Incorreto. O GPT-3 é um modelo de linguagem da OpenAI, mas o GPT-4 ainda não foi lançado.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "openAI",
+            "openAI playground",
+            "openAI Models"
+        ],
+        "text": [
+            "Quais são as principais funcionalidades do OpenAI Playground?"
+        ],
+        "alternatives": [
+            {
+                "text": "Experimentar e testar modelos de linguagem da OpenAI, criar textos gerados por IA e interagir com os resultados.",
+                "feedback": "Correto! No OpenAI Playground, é possível experimentar e testar modelos de linguagem, criar textos gerados por IA e interagir com os resultados.",
+                "correct": true
+            },
+            {
+                "text": "Desenvolver aplicativos de inteligência artificial usando modelos pré-treinados.",
+                "feedback": "Incorreto. Embora seja possível usar modelos pré-treinados no OpenAI Playground, essa não é a sua funcionalidade principal.",
+                "correct": false
+            },
+            {
+                "text": "Realizar análise de dados e geração de visualizações gráficas.",
+                "feedback": "Incorreto. Embora seja possível trabalhar com análise de dados e visualizações gráficas em outras ferramentas, essa não é a finalidade principal do OpenAI Playground.",
+                "correct": false
+            },
+            {
+                "text": "Criar chatbots e assistentes virtuais personalizados.",
+                "feedback": "Incorreto. Embora seja possível criar chatbots e assistentes virtuais com o auxílio de modelos de linguagem, essa não é a finalidade principal do OpenAI Playground.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "openAI",
+            "openAI playground",
+            "openAI Models"
+        ],
+        "text": [
+            "Quais são os pontos positivos do uso dos modelos de processamento de linguagem da OpenAI?"
+        ],
+        "alternatives": [
+            {
+                "text": "Capacidade de gerar textos de qualidade, auxiliar em tarefas de escrita e fornecer insights em diferentes áreas.",
+                "feedback": "Correto! Os modelos de linguagem da OpenAI têm a capacidade de gerar textos de qualidade, auxiliar em tarefas de escrita e fornecer insights em diferentes áreas.",
+                "correct": true
+            },
+            {
+                "text": "Capacidade de processar grandes volumes de dados, fazer análise preditiva e oferecer suporte em tomada de decisões empresariais.",
+                "feedback": "Incorreto. Embora os modelos de linguagem da OpenAI possam auxiliar em análise de dados e tomada de decisões, seu foco principal é na geração e compreensão de texto.",
+                "correct": false
+            },
+            {
+                "text": "Capacidade de criação de interfaces gráficas avançadas e desenvolvimento de aplicativos móveis.",
+                "feedback": "Incorreto. Embora a OpenAI ofereça tecnologias avançadas, como modelos de linguagem, a criação de interfaces gráficas e aplicativos móveis não é o principal objetivo dos modelos de IA.",
+                "correct": false
+            },
+            {
+                "text": "Capacidade de automação de processos, redução de custos operacionais e aumento da eficiência empresarial.",
+                "feedback": "Incorreto. Embora os modelos de linguagem da OpenAI possam trazer benefícios em automação e eficiência, seu foco principal está na geração e compreensão de texto.",
+                "correct": false
+            }
+        ]
+    }
+]

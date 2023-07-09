@@ -1,0 +1,162 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI Playground", "parâmetros"],
+        "text": [
+            "Qual parâmetro controla a aleatoriedade das respostas geradas pelo modelo?"
+        ],
+        "alternatives": [
+            {
+                "text": "temperature",
+                "feedback": "O parâmetro 'temperature' controla a aleatoriedade das respostas geradas pelo modelo. Valores mais baixos, como 0,5, tornam as respostas mais determinísticas e focadas.",
+                "correct": true
+            },
+            {
+                "text": "max_tokens",
+                "feedback": "O parâmetro 'max_tokens' define o número máximo de tokens na resposta gerada pelo modelo. Não controla a aleatoriedade das respostas.",
+                "correct": false
+            },
+            {
+                "text": "top_p",
+                "feedback": "O parâmetro 'top_p' controla a diversidade das respostas geradas pelo modelo, mas não a aleatoriedade.",
+                "correct": false
+            },
+            {
+                "text": "frequency_penalty",
+                "feedback": "O parâmetro 'frequency_penalty' controla a repetição de frases no texto gerado, mas não a aleatoriedade das respostas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI Playground", "parâmetros"],
+        "text": [
+            "Qual parâmetro define o número máximo de tokens na resposta gerada pelo modelo?"
+        ],
+        "alternatives": [
+            {
+                "text": "temperature",
+                "feedback": "O parâmetro 'temperature' controla a aleatoriedade das respostas geradas pelo modelo, não o número máximo de tokens.",
+                "correct": false
+            },
+            {
+                "text": "top_p",
+                "feedback": "O parâmetro 'top_p' controla a diversidade das respostas geradas pelo modelo, não o número máximo de tokens.",
+                "correct": false
+            },
+            {
+                "text": "max_tokens",
+                "feedback": "O parâmetro 'max_tokens' define o número máximo de tokens na resposta gerada pelo modelo. Ele é útil para controlar o tamanho da resposta e limitar a quantidade de informações fornecidas.",
+                "correct": true
+            },
+            {
+                "text": "presence_penalty",
+                "feedback": "O parâmetro 'presence_penalty' controla a inclusão de temas ou palavras específicas na resposta gerada pelo modelo, não o número máximo de tokens.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI Playground", "parâmetros"],
+        "text": [
+            "Qual parâmetro controla a diversidade das respostas geradas pelo modelo, no qual valores menores resultam em respostas mais focadas e conservadoras?",
+        ],
+        "alternatives": [
+            {
+                "text": "temperature",
+                "feedback": "O parâmetro 'temperature' controla a aleatoriedade das respostas geradas pelo modelo, não a diversidade.",
+                "correct": false
+            },
+            {
+                "text": "max_tokens",
+                "feedback": "O parâmetro 'max_tokens' define o número máximo de tokens na resposta gerada pelo modelo, não a diversidade das respostas.",
+                "correct": false
+            },
+            {
+                "text": "best_of",
+                "feedback": "O parâmetro 'best_of' determina quantas respostas alternativas o modelo deve gerar e retornar, não controla a diversidade das respostas.",
+                "correct": false
+            },
+            {
+                "text": "top_p",
+                "feedback": "O parâmetro 'top_p' controla a diversidade das respostas geradas pelo modelo. Valores menores resultam em respostas mais focadas e conservadoras.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI Playground", "parâmetros"],
+        "text": [
+            "Qual parâmetro controla a repetição de frases ou respostas semelhantes no texto gerado?"
+        ],
+        "alternatives": [
+            {
+                "text": "presence_penalty",
+                "feedback": "O parâmetro 'presence_penalty' controla a inclusão de temas ou palavras específicas na resposta gerada pelo modelo, não a repetição de frases.",
+                "correct": false
+            },
+            {
+                "text": "frequency_penalty",
+                "feedback": "O parâmetro 'frequency_penalty' controla a repetição de frases ou respostas semelhantes no texto gerado. Valores mais altos desencorajam o modelo a repetir frases e tendem a gerar respostas mais novas e diferentes.",
+                "correct": true
+            },
+            {
+                "text": "max_tokens",
+                "feedback": "O parâmetro 'max_tokens' define o número máximo de tokens na resposta gerada pelo modelo, não controla a repetição de frases.",
+                "correct": false
+            },
+            {
+                "text": "temperature",
+                "feedback": "O parâmetro 'temperature' controla a aleatoriedade das respostas geradas pelo modelo, não a repetição de frases.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI Playground", "parâmetros"],
+        "text": [
+            "Qual parâmetro controla a inclusão de temas ou palavras específicas na resposta gerada pelo modelo?",
+        ],
+        "alternatives": [
+            {
+                "text": "presence_penalty",
+                "feedback": "O parâmetro 'presence_penalty' controla a inclusão de temas ou palavras específicas na resposta gerada pelo modelo. Valores mais altos desencorajam o modelo a mencionar temas específicos com frequência.",
+                "correct": true
+            },
+            {
+                "text": "top_p",
+                "feedback": "O parâmetro 'top_p' controla a diversidade das respostas geradas pelo modelo, não a inclusão de temas específicos.",
+                "correct": false
+            },
+            {
+                "text": "max_tokens",
+                "feedback": "O parâmetro 'max_tokens' define o número máximo de tokens na resposta gerada pelo modelo, não controla a inclusão de temas específicos.",
+                "correct": false
+            },
+            {
+                "text": "best_of",
+                "feedback": "O parâmetro 'best_of' determina quantas respostas alternativas o modelo deve gerar e retornar, não controla a inclusão de temas específicos.",
+                "correct": false
+            }
+        ]
+    }
+]

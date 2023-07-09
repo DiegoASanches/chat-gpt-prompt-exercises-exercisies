@@ -1,0 +1,82 @@
+[
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["Node.js", "process.env", ".env file"],
+        "text": [
+            "Como obter os valores do arquivo .env em um projeto Node.js?"
+        ],
+        "alternatives": [
+            {"text": "require('dotenv').config()", "feedback": "Isso mesmo! O código 'require('dotenv').config()' carrega os valores do arquivo .env no projeto Node.js.", "correct": true},
+            {"text": "load('dotenv').env()", "feedback": "Ops! A forma correta é 'require('dotenv').config()' para carregar os valores do arquivo .env.", "correct": false},
+            {"text": "dotenv.load()", "feedback": "Essa não é a sintaxe correta para carregar os valores do arquivo .env. Use 'require('dotenv').config()'.", "correct": false},
+            {"text": "env.config('dotenv')", "feedback": "Não é a forma correta de carregar os valores do arquivo .env. Use 'require('dotenv').config()' para isso.", "correct": false}
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["Node.js", "OpenAI", "NPM"],
+        "text": [
+            "Qual o comando para adicionar a biblioteca OpenAI ao projeto Node.js?"
+        ],
+        "alternatives": [
+            {"text": "npm install openai", "feedback": "Correto! O comando 'npm install openai' adiciona a biblioteca OpenAI ao projeto Node.js.", "correct": true},
+            {"text": "npm add openai", "feedback": "Ops! O comando correto é 'npm install openai' para adicionar a biblioteca OpenAI.", "correct": false},
+            {"text": "npm openai install", "feedback": "Não é a forma correta de adicionar uma biblioteca. O comando correto é 'npm install openai'.", "correct": false},
+            {"text": "npm add-package openai", "feedback": "Essa não é a sintaxe correta para adicionar uma biblioteca. Use 'npm install openai'.", "correct": false}
+        ]
+    },
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["inicialização do express", "servidor"],
+        "text": [
+            "Qual o código necessário para inicializar um servidor Express na porta 3050?"
+        ],
+        "alternatives": [
+            {"text": "const app = express(); app.listen(3050);", "feedback":"A função 'listen()' é utilizada para iniciar o servidor, mas não foi atribuída à variável 'app'.", "correct":false},
+            {"text": "const express = require('express'); const app = express(); app.listen(3050);", "feedback":"Essa é a forma correta de importar o módulo 'express' e inicializar o servidor na porta 3050.", "correct":true},
+            {"text": "import express from 'express'; const app = express(); app.listen(3050);", "feedback":"A sintaxe 'import' não é utilizada para importar módulos no Node.js.", "correct":false},
+            {"text": "const { express, app } = require('express'); app.listen(3050);", "feedback":"A importação está incorreta e a atribuição de 'express' e 'app' também não está correta.", "correct":false}
+        ]
+    },
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["chamada da API", "parâmetros da solicitação"],
+        "text": [
+            "Qual parâmetro da função 'openai.createCompletion()' irá retornar com o dado da resposta?"
+        ],
+        "alternatives": [
+            {"text": "choices", "feedback":"Isso está correto! você pode obter os valores através do código: `response.data.choices[0].text`", "correct":true},
+            {"text": "text", "feedback":"O parâmetro correto é 'choices', não 'text'.", "correct":false},
+            {"text": "input", "feedback":"O parâmetro correto é 'choices', não 'input'.", "correct":false},
+            {"text": "content", "feedback":"O parâmetro correto é 'choices', não 'content'.", "correct":false}
+        ]
+    },
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "parâmetros da resposta"],
+        "text": [
+            "Qual parâmetro é utilizado para ajustar a criatividade das respostas geradas pelo modelo da OpenAI na chamada 'openai.createChatCompletion()'?"
+        ],
+        "alternatives": [
+            {"text": "openai.createChatCompletion({temperature: 1})", "feedback":"Correto! O parâmetro 'temperature' é utilizado para ajustar a criatividade das respostas geradas pelo modelo da OpenAI na chamada da API 'openai.createChatCompletion()'. Valores mais altos aumentam a aleatoriedade e criatividade, enquanto valores mais baixos tornam as respostas mais determinísticas.", "correct":true},
+            {"text": "openai.createChatCompletion({max_tokens: 4096})", "feedback":"O parâmetro 'max_tokens' é utilizado para controlar o número máximo de tokens no texto gerado, não a criatividade.", "correct":false},
+            {"text": "openai.createChatCompletion({frequency_penalty: 1})", "feedback":"O parâmetro 'frequency_penalty' é utilizado para ajustar a frequência de palavras repetidas no texto gerado, não a criatividade.", "correct":false},
+            {"text": "openai.createChatCompletion({stop: \n})", "feedback":"O parâmetro 'stop' é utilizado para especificar uma sequência de texto na qual a geração do modelo deve parar, não para ajustar a criatividade das respostas.", "correct":false}
+        ]
+    }
+]

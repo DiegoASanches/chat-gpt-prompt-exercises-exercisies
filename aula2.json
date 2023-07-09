@@ -1,0 +1,182 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "limitações"
+        ],
+        "text": [
+            "Quais são algumas das limitações do Chat GPT da OpenAI?"
+        ],
+        "alternatives": [
+            {
+                "text": "Tendência a gerar respostas irrelevantes ou fora de contexto.",
+                "feedback": "Isso ocorre devido à natureza do modelo de linguagem, que pode resultar em respostas que não são relevantes para a pergunta ou estão fora de contexto.",
+                "correct": false
+            },
+            {
+                "text": "Dificuldade em lidar com perguntas ambíguas ou mal formuladas.",
+                "feedback": "O Chat GPT pode ter dificuldade em compreender perguntas que são ambíguas ou mal formuladas, levando a respostas inadequadas.",
+                "correct": false
+            },
+            {
+                "text": "Possibilidade de gerar respostas enviesadas ou propagar desinformação.",
+                "feedback": "Devido ao treinamento em grandes conjuntos de dados da Internet, o Chat GPT pode ocasionalmente gerar respostas enviesadas ou propagar desinformação sem intenção.",
+                "correct": false
+            },
+            {
+                "text": "Todas as opções acima",
+                "feedback": "Isso está correto. O Chat GPT tem essas limitações e pode apresentar todas as opções mencionadas.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "respostas irrelevantes",
+            "treinamento do modelo"
+        ],
+        "text": [
+            "Por que o Chat GPT pode ocasionalmente gerar respostas irrelevantes ou fora de contexto?"
+        ],
+        "alternatives": [
+            {
+                "text": "Devido às limitações do treinamento do modelo em capturar completamente o significado e o contexto da pergunta.",
+                "feedback": "Isso está correto. O treinamento do modelo tem limitações em compreender totalmente o significado e o contexto da pergunta, resultando em respostas irrelevantes ou fora de contexto.",
+                "correct": true
+            },
+            {
+                "text": "Devido a erros de programação na implementação do Chat GPT.",
+                "feedback": "Não é correto. Os erros de programação podem ocorrer, mas não são a principal razão para respostas irrelevantes ou fora de contexto.",
+                "correct": false
+            },
+            {
+                "text": "Devido à falta de dados de treinamento disponíveis para o modelo.",
+                "feedback": "Embora a quantidade e qualidade dos dados de treinamento possam influenciar o desempenho do modelo, não é a principal razão para respostas irrelevantes ou fora de contexto.",
+                "correct": false
+            },
+            {
+                "text": "Devido a restrições de hardware e capacidade computacional do servidor.",
+                "feedback": "As restrições de hardware e capacidade computacional do servidor não são a principal razão para respostas irrelevantes ou fora de contexto.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "mitigar impactos",
+            "treinamento adicional",
+            "feedback",
+            "detecção de viés"
+        ],
+        "text": [
+            "Como a OpenAI aborda as limitações do Chat GPT e busca mitigar seus impactos?"
+        ],
+        "alternatives": [
+            {
+                "text": "Realizando treinamento adicional do modelo com conjuntos de dados mais diversificados.",
+                "feedback": "Isso está correto. A OpenAI realiza treinamento adicional do modelo com conjuntos de dados mais diversificados para melhorar seu desempenho.",
+                "correct": true
+            },
+            {
+                "text": "Solicitando feedback dos usuários e iterando no modelo para melhorar suas respostas.",
+                "feedback": "Isso está correto. A OpenAI solicita feedback dos usuários e continua iterando no modelo para aprimorar suas respostas.",
+                "correct": true
+            },
+            {
+                "text": "Implementando mecanismos de detecção de viés e desinformação nas respostas geradas.",
+                "feedback": "Isso está correto. A OpenAI implementa mecanismos de detecção de viés e desinformação nas respostas geradas para mitigar seus impactos.",
+                "correct": true
+            },
+            {
+                "text": "Todas as opções acima",
+                "feedback": "Isso está correto. A OpenAI adota todas as opções mencionadas para abordar as limitações e mitigar os impactos do Chat GPT.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "papel",
+            "analogia"
+        ],
+        "text": [
+            "Qual é o papel do Chat GPT para os programadores? Comparando-o com um ajudante em uma aventura de programação, qual seria a melhor analogia?"
+        ],
+        "alternatives": [
+            {
+                "text": "O Chat GPT é como um assistente mágico que faz todo o trabalho de programação enquanto o programador relaxa.",
+                "feedback": "Não é correto. O Chat GPT não faz todo o trabalho de programação; ele fornece assistência e informações, mas não substitui o papel ativo do programador.",
+                "correct": false
+            },
+            {
+                "text": "O Chat GPT é como um companheiro confiável que ajuda o programador a encontrar informações e fornece dicas valiosas durante a jornada de programação.",
+                "feedback": "Isso está correto. O Chat GPT é como um companheiro confiável que auxilia o programador, fornecendo informações e dicas valiosas durante a jornada de programação.",
+                "correct": true
+            },
+            {
+                "text": "O Chat GPT é como um vilão sinistro que tenta substituir o programador e roubar todo o crédito pelos códigos desenvolvidos.",
+                "feedback": "Essa analogia não é precisa. O Chat GPT não é um vilão sinistro que tenta substituir o programador; ele está lá para ajudar e auxiliar.",
+                "correct": false
+            },
+            {
+                "text": "Todas as opções acima",
+                "feedback": "Não é correto. Apenas a opção B é a analogia adequada para o papel do Chat GPT para os programadores.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "Chat GPT",
+            "possibilidades"
+        ],
+        "text": [
+            "Quais são as possibilidades oferecidas pelo Chat GPT para os programadores de software?"
+        ],
+        "alternatives": [
+            {
+                "text": "No Chat GPT, os programadores podem obter respostas rápidas a perguntas específicas sobre programação e sintaxe de linguagens de programação.",
+                "feedback": "Isso está correto. Os programadores podem usar o Chat GPT para obter respostas rápidas a perguntas específicas sobre programação e sintaxe de linguagens de programação.",
+                "correct": true
+            },
+            {
+                "text": "O Chat GPT pode fornecer exemplos de código para ajudar os programadores a entender conceitos e implementações específicas.",
+                "feedback": "Isso está correto. O Chat GPT pode fornecer exemplos de código para auxiliar os programadores na compreensão de conceitos e implementações específicas.",
+                "correct": true
+            },
+            {
+                "text": "Os programadores podem usar o Chat GPT para receber sugestões e orientações sobre a melhor abordagem para resolver um problema de programação.",
+                "feedback": "Isso está correto. Os programadores podem recorrer ao Chat GPT para receber sugestões e orientações sobre a melhor abordagem para resolver problemas de programação.",
+                "correct": true
+            },
+            {
+                "text": "Todas as opções acima",
+                "feedback": "Isso está correto. Todas as opções mencionadas são possibilidades oferecidas pelo Chat GPT para os programadores de software.",
+                "correct": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,235 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "variáveis",
+            "constantes"
+        ],
+        "text": [
+            "Qual o modelo de linguagem que oferece o melhor custo benefício, considerando o preço (a cada 1000 tokens), velocidade e limite de tokens?",
+        ],
+        "alternatives": [
+            {
+                "text": "text-davinci-003",
+                "feedback": "Essa alternativa não é a correta. O modelo text-davinci-003 não oferece o melhor custo benefício considerando o preço, velocidade e limite de tokens.",
+                "correct": false
+            },
+            {
+                "text": "gpt-4",
+                "feedback": "Essa alternativa não é a correta. O modelo gpt-4 não oferece o melhor custo benefício considerando o preço, velocidade e limite de tokens.",
+                "correct": false
+            },
+            {
+                "text": "gpt-3.5-turbo",
+                "feedback": "Essa alternativa é a correta. O modelo gpt-3.5-turbo oferece o melhor custo benefício considerando o preço, velocidade e limite de tokens.",
+                "correct": true
+            },
+            {
+                "text": "curie",
+                "feedback": "Essa alternativa não é a correta. O modelo curie não oferece o melhor custo benefício considerando o preço, velocidade e limite de tokens.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "diferenças",
+            "GPT-3.5-turbo",
+            "text-davinci-003"
+        ],
+        "text": [
+            "Quais são as principais diferenças entre o modelo GPT-3.5-turbo e o modelo text-davinci-003?",
+        ],
+        "alternatives": [
+            {
+                "text": "O modelo GPT-3.5-turbo tem um limite de tokens menor",
+                "feedback": "Essa alternativa não é a correta. O modelo GPT-3.5-turbo não tem um limite de tokens menor em comparação com o modelo text-davinci-003.",
+                "correct": false
+            },
+            {
+                "text": "O modelo GPT-3.5-turbo possui velocidade de resposta mais rápida",
+                "feedback": "Essa alternativa é a correta. O modelo GPT-3.5-turbo possui velocidade de resposta mais rápida em comparação com o modelo text-davinci-003.",
+                "correct": true
+            },
+            {
+                "text": "O modelo GPT-3.5-turbo é mais barato",
+                "feedback": "Essa alternativa não é a correta. O modelo GPT-3.5-turbo não é mais barato em comparação com o modelo text-davinci-003.",
+                "correct": false
+            },
+            {
+                "text": "O modelo GPT-3.5-turbo oferece resultados mais precisos",
+                "feedback": "Essa alternativa não é a correta. O modelo GPT-3.5-turbo não oferece resultados mais precisos em comparação com o modelo text-davinci-003.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "parâmetro",
+            "OpenAI",
+            "criatividade",
+            "diversidade",
+            "respostas"
+        ],
+        "text": [
+            "Qual parâmetro do OpenAI ajusta a criatividade e diversidade das respostas geradas pelo modelo de linguagem?",
+        ],
+        "alternatives": [
+            {
+                "text": "Temperature",
+                "feedback": "Essa alternativa é a correta. O parâmetro Temperature ajusta a criatividade e diversidade das respostas geradas pelo modelo de linguagem.",
+                "correct": true
+            },
+            {
+                "text": "Frequency Penalty",
+                "feedback": "Essa alternativa não é a correta. O parâmetro Frequency Penalty não ajusta a criatividade e diversidade das respostas geradas pelo modelo de linguagem.",
+                "correct": false
+            },
+            {
+                "text": "Max Tokens",
+                "feedback": "Essa alternativa não é a correta. O parâmetro Max Tokens não ajusta a criatividade e diversidade das respostas geradas pelo modelo de linguagem.",
+                "correct": false
+            },
+            {
+                "text": "Top P",
+                "feedback": "Essa alternativa não é a correta. O parâmetro Top P não ajusta a criatividade e diversidade das respostas geradas pelo modelo de linguagem.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "parâmetro",
+            "OpenAI",
+            "frequency_penalty",
+            "probabilidade",
+            "repetição",
+            "palavras",
+            "resposta"
+        ],
+        "text": [
+            "O parâmetro 'frequency_penalty' do OpenAI é utilizado para controlar o quê?",
+        ],
+        "alternatives": [
+            {
+                "text": "A probabilidade de repetição de palavras em uma resposta",
+                "feedback": "Essa alternativa é a correta. O parâmetro 'frequency_penalty' do OpenAI é utilizado para controlar a probabilidade de repetição de palavras em uma resposta.",
+                "correct": true
+            },
+            {
+                "text": "A frequência com que o modelo gera respostas",
+                "feedback": "Essa alternativa não é a correta. O parâmetro 'frequency_penalty' do OpenAI não controla a frequência com que o modelo gera respostas.",
+                "correct": false
+            },
+            {
+                "text": "A influência das palavras mais comuns nas respostas",
+                "feedback": "Essa alternativa não é a correta. O parâmetro 'frequency_penalty' do OpenAI não controla a influência das palavras mais comuns nas respostas.",
+                "correct": false
+            },
+            {
+                "text": "A velocidade de geração de respostas",
+                "feedback": "Essa alternativa não é a correta. O parâmetro 'frequency_penalty' do OpenAI não controla a velocidade de geração de respostas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "parâmetro",
+            "OpenAI",
+            "top_p",
+            "nucleus",
+            "sampling",
+            "probabilidade",
+            "inclusão",
+            "palavras",
+            "resposta"
+        ],
+        "text": [
+            "O parâmetro 'top_p' (também conhecido como nucleus sampling) do OpenAI é usado para controlar o quê?",
+        ],
+        "alternatives": [
+            {
+                "text": "A probabilidade de inclusão de palavras em cada resposta",
+                "feedback": "Essa alternativa é a correta. O parâmetro 'top_p' do OpenAI é usado para controlar a probabilidade de inclusão de palavras em cada resposta.",
+                "correct": true
+            },
+            {
+                "text": "A temperatura das respostas geradas",
+                "feedback": "Essa alternativa não é a correta. O parâmetro 'top_p' do OpenAI não controla a temperatura das respostas geradas.",
+                "correct": false
+            },
+            {
+                "text": "A diversidade das respostas geradas",
+                "feedback": "Essa alternativa não é a correta. O parâmetro 'top_p' do OpenAI não controla a diversidade das respostas geradas.",
+                "correct": false
+            },
+            {
+                "text": "A quantidade máxima de tokens nas respostas geradas",
+                "feedback": "Essa alternativa não é a correta. O parâmetro 'top_p' do OpenAI não controla a quantidade máxima de tokens nas respostas geradas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-006",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "objetivo",
+            "OpenAI",
+            "desenvolvimento",
+            "modelos",
+            "GPT",
+            "facilitar",
+            "comunicação",
+            "humanos",
+            "máquinas"
+        ],
+        "text": [
+            "Qual é o objetivo principal da OpenAI ao desenvolver modelos de linguagem como o GPT?"
+        ],
+        "alternatives": [
+            {
+                "text": "Facilitar a comunicação entre humanos e máquinas",
+                "feedback": "Essa alternativa é a correta. O objetivo principal da OpenAI ao desenvolver modelos de linguagem como o GPT é facilitar a comunicação entre humanos e máquinas.",
+                "correct": true
+            },
+            {
+                "text": "Melhorar a velocidade de processamento de máquinas",
+                "feedback": "Essa alternativa não é a correta. Embora o desenvolvimento de modelos de linguagem como o GPT possa ter impacto na velocidade de processamento de máquinas, esse não é o objetivo principal da OpenAI.",
+                "correct": false
+            },
+            {
+                "text": "Substituir completamente os humanos em tarefas de linguagem",
+                "feedback": "Essa alternativa não é a correta. Embora o desenvolvimento de modelos de linguagem como o GPT possa ter aplicação em tarefas de linguagem, o objetivo principal da OpenAI não é substituir completamente os humanos nessas tarefas.",
+                "correct": false
+            },
+            {
+                "text": "Reduzir os custos de desenvolvimento de software",
+                "feedback": "Essa alternativa não é a correta. Embora o desenvolvimento de modelos de linguagem como o GPT possa ter impacto nos custos de desenvolvimento de software, esse não é o objetivo principal da OpenAI.",
+                "correct": false
+            }
+        ]
+    }
+]
