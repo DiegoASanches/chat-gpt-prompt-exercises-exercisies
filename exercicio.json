@@ -337,5 +337,41 @@
                 "correct": false
             }
         ]
+    },
+    {
+        "SKU": "BE-TS-010",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "inteligência artificial",
+            "implementação",
+            "risco"
+        ],
+        "text": [
+            "Quais são os riscos de implementar inteligência artificial em uma empresa?"
+        ],
+        "alternatives": [
+            {
+                "text": "Aumento da produtividade e eficiência dos processos",
+                "feedback": "Não é um risco. O aumento da produtividade e eficiência são benefícios potenciais da implementação da inteligência artificial.",
+                "correct": false
+            },
+            {
+                "text": "Viés e discriminação nos resultados gerados pela inteligência artificial",
+                "feedback": "Correto! O viés e a discriminação são riscos associados à implementação da inteligência artificial.",
+                "correct": true
+            },
+            {
+                "text": "Melhoria na experiência do cliente",
+                "feedback": "Não é um risco. A melhoria na experiência do cliente é um benefício potencial da implementação da inteligência artificial.",
+                "correct": false
+            },
+            {
+                "text": "Redução de custos operacionais",
+                "feedback": "Não é um risco. A redução de custos operacionais é um benefício potencial da implementação da inteligência artificial.",
+                "correct": false
+            }
+        ]
     }
 ]
