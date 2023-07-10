@@ -1,18 +1,180 @@
-[
-    {
-        "SKU": "BE-TS-001",
-        "interpreter": 1,
-        "type": "MULT",
-        "language": "javascript",
-        "tagsOrConcepts": ["OpenAI", "parâmetros da resposta"],
-        "text": [
-            "Qual parâmetro é utilizado para ajustar a frequência de palavras repetidas no texto gerado pela chamada 'openai.createChatCompletion()'?"
-        ],
-        "alternatives": [
-            {"text": "frequency_penalty", "feedback":"Correto! O parâmetro 'frequency_penalty' é utilizado para ajustar a frequência de palavras repetidas no texto gerado pela chamada da API 'openai.createChatCompletion()'. Valores mais altos penalizam a repetição de palavras, enquanto valores mais baixos permitem repetições.", "correct":true},
-            {"text": "temperature", "feedback":"O parâmetro 'temperature' é utilizado para ajustar a aleatoriedade do texto gerado, não a frequência de palavras repetidas.", "correct":false},
-            {"text": "max_tokens", "feedback":"O parâmetro 'max_tokens' é utilizado para controlar o número máximo de tokens no texto gerado, não a frequência de palavras repetidas.", "correct":false},
-            {"text": "stop", "feedback":"O parâmetro 'stop' é utilizado para especificar uma sequência de texto na qual a geração do modelo deve parar, não para ajustar a frequência de palavras repetidas.", "correct":false}
-        ]
-    }
-]
+{
+    "questions": [
+        {
+            "SKU": "BE-TS-001",
+            "interpreter": 1,
+            "type": "MULT",
+            "language": "javascript",
+            "tagsOrConcepts": [
+                "prompt interativo",
+                "delimitação de caracteres"
+            ],
+            "text": [
+                "O que é importante fazer no seu prompt caso você se deparar com prompts incompletos, com textos cortados ou com respostas muito curtas?"
+            ],
+            "alternatives": [
+                {
+                    "text": "Ampliação de caracteres",
+                    "feedback": "Não é a técnica correta. A técnica utilizada é a delimitação de caracteres.",
+                    "correct": false
+                },
+                {
+                    "text": "Delimitação de caracteres",
+                    "feedback": "Correto! A delimitação de caracteres é utilizada para limitar a quantidade de caracteres do resultado nos prompts interativos.",
+                    "correct": true
+                },
+                {
+                    "text": "Repetição de caracteres",
+                    "feedback": "Não é a técnica correta. A técnica utilizada é a delimitação de caracteres.",
+                    "correct": false
+                },
+                {
+                    "text": "Substituição de caracteres",
+                    "feedback": "Não é a técnica correta. A técnica utilizada é a delimitação de caracteres.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "SKU": "BE-TS-002",
+            "interpreter": 1,
+            "type": "MULT",
+            "language": "javascript",
+            "tagsOrConcepts": [
+                "prompt engineering"
+            ],
+            "text": [
+                "Qual instrução de prompt a seguir melhor define a frase: Destacar as informações importantes"
+            ],
+            "alternatives": [
+                {
+                    "text": "Use no máximo 50 palavras.",
+                    "feedback": "Não é a definição correta. A delimitação de caracteres é importante porém nnao define a frase: Destacar as informações importantes",
+                    "correct": false
+                },
+                {
+                    "text": "Sua tarefa é ajudar uma equipe de marketing a criar um descrição para um site de varejo de um produto baseado em uma ficha técnica.",
+                    "feedback": "Não é a definição correta. Essa alternativa apenas descreve a tarefa/papel do chat GPT e não destaca as informações importantes",
+                    "correct": false
+                },
+                {
+                    "text": "Escreva uma descrição do produto com base nas informações previsto nas especificações técnicas entre aspas e foque na descrição técnica do produto descrito em vez de focar nos valores dos produtos.",
+                    "feedback": "Correto! Focar no que é relevante significa destacar as informações importantes nos prompts interativos.",
+                    "correct": true
+                },
+                {
+                    "text": "Todas as anteriores",
+                    "feedback": "Não é a definição correta. Focar no que é relevante envolve justamente prestar atenção às informações importantes.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "SKU": "BE-TS-003",
+            "interpreter": 1,
+            "type": "MULT",
+            "language": "javascript",
+            "tagsOrConcepts": [
+                "output de preview",
+                "renderização de prompts"
+            ],
+            "text": [
+                "Qual das alternativas abaixo especifica um output de visualização:"
+            ],
+            "alternatives": [
+                {
+                    "text": "Liste 10 ideias de nomes de hamburguerias",
+                    "feedback": "Não é a definição correta. Essa alternativa define o que o usuário expera de informação porém não define o output de visualização.",
+                    "correct": false
+                },
+                {
+                    "text": "Printe o resultado em formato de tabela com as colunas: nome, idade, profissão e defina o título: Usuários na tabela",
+                    "feedback": "Correto! Definir o formato de output significa especificar o formato em que os prompts interativos serão renderizados.",
+                    "correct": true
+                },
+                {
+                    "text": "Ignore os nomes abaixo e liste apenas os sobrenomes.",
+                    "feedback": "Não é a definição correta. A delimitação do output não define o preview do output",
+                    "correct": false
+                },
+                {
+                    "text": "Todas as anteriores",
+                    "feedback": "Não é a definição correta. Definir o formato de output significa especificar o formato em que os prompts interativos serão renderizados.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "SKU": "BE-TS-004",
+            "interpreter": 1,
+            "type": "MULT",
+            "language": "javascript",
+            "tagsOrConcepts": [
+                "extrair informações",
+                "análise de sentimento",
+                "avaliação de estrelas"
+            ],
+            "text": [
+                "Como podemos avaliar o sentimento/perfil do usuário em prompts interativos?"
+            ],
+            "alternatives": [
+                {
+                    "text": "Me de o resultado em valores de 0 a 5 com base na satisfação do usuário.",
+                    "feedback": "Correto!. Essa instrução irá analisar o grau de satisfação do usuário, ou seja teremos um indicativo se o sentimento do usuário é satisfatório ou não.",
+                    "correct": false
+                },
+                {
+                    "text": "Defina um número de 0 a 5, no qual 0 é triste e 5 feliz para a resposta do usuário.",
+                    "feedback": "Correto!. Definir o formato de output significa especificar o formato em que os prompts interativos serão renderizados.",
+                    "correct": false
+                },
+                {
+                    "text": "Defina o perfil do investidor com base nos indicativos financeiros",
+                    "feedback": "Correto!. A partir dos dados financeiros é possível captar o perfil de investidor do usuário.",
+                    "correct": false
+                },
+                {
+                    "text": "Todas as anteriores",
+                    "feedback": "Correto! todas as alternativas avaliam o sentimento do texto do usuário.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "SKU": "BE-TS-005",
+            "interpreter": 1,
+            "type": "MULT",
+            "language": "javascript",
+            "tagsOrConcepts": [
+                "extrair informações",
+                "análise de sentimento",
+                "avaliação de estrelas"
+            ],
+            "text": [
+                "Como podemos avaliar o sentimento/perfil do usuário em prompts interativos?"
+            ],
+            "alternatives": [
+                {
+                    "text": "Me de o resultado em valores de 0 a 5 com base na satisfação do usuário.",
+                    "feedback": "Correto!. Essa instrução irá analisar o grau de satisfação do usuário, ou seja teremos um indicativo se o sentimento do usuário é satisfatório ou não.",
+                    "correct": false
+                },
+                {
+                    "text": "Defina um número de 0 a 5, no qual 0 é triste e 5 feliz para a resposta do usuário.",
+                    "feedback": "Correto!. Definir o formato de output significa especificar o formato em que os prompts interativos serão renderizados.",
+                    "correct": false
+                },
+                {
+                    "text": "Defina o perfil do investidor com base nos indicativos financeiros",
+                    "feedback": "Correto!. A partir dos dados financeiros é possível captar o perfil de investidor do usuário.",
+                    "correct": false
+                },
+                {
+                    "text": "Todas as anteriores",
+                    "feedback": "Correto! todas as alternativas avaliam o sentimento do texto do usuário.",
+                    "correct": true
+                }
+            ]
+        }
+    ]
+}

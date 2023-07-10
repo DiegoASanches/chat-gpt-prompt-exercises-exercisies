@@ -9,7 +9,7 @@
             "constantes"
         ],
         "text": [
-            "Qual o modelo de linguagem que oferece o melhor custo benefício, considerando o preço (a cada 1000 tokens), velocidade e limite de tokens?",
+            "Qual o modelo de linguagem que oferece o melhor custo benefício, considerando o preço (a cada 1000 tokens), velocidade e limite de tokens?"
         ],
         "alternatives": [
             {
@@ -45,7 +45,7 @@
             "text-davinci-003"
         ],
         "text": [
-            "Quais são as principais diferenças entre o modelo GPT-3.5-turbo e o modelo text-davinci-003?",
+            "Quais são as principais diferenças entre o modelo GPT-3.5-turbo e o modelo text-davinci-003?"
         ],
         "alternatives": [
             {
@@ -83,7 +83,7 @@
             "respostas"
         ],
         "text": [
-            "Qual parâmetro do OpenAI ajusta a criatividade e diversidade das respostas geradas pelo modelo de linguagem?",
+            "Qual parâmetro do OpenAI ajusta a criatividade e diversidade das respostas geradas pelo modelo de linguagem?"
         ],
         "alternatives": [
             {
@@ -123,7 +123,7 @@
             "resposta"
         ],
         "text": [
-            "O parâmetro 'frequency_penalty' do OpenAI é utilizado para controlar o quê?",
+            "O parâmetro 'frequency_penalty' do OpenAI é utilizado para controlar o quê?"
         ],
         "alternatives": [
             {
@@ -165,7 +165,7 @@
             "resposta"
         ],
         "text": [
-            "O parâmetro 'top_p' (também conhecido como nucleus sampling) do OpenAI é usado para controlar o quê?",
+            "O parâmetro 'top_p' (também conhecido como nucleus sampling) do OpenAI é usado para controlar o quê?"
         ],
         "alternatives": [
             {
@@ -228,6 +228,112 @@
             {
                 "text": "Reduzir os custos de desenvolvimento de software",
                 "feedback": "Essa alternativa não é a correta. Embora o desenvolvimento de modelos de linguagem como o GPT possa ter impacto nos custos de desenvolvimento de software, esse não é o objetivo principal da OpenAI.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-007",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "output de preview",
+            "renderização de prompts"
+        ],
+        "text": [
+            "O que significa definir o output de preview no desenvolvimento de prompts interativos?"
+        ],
+        "alternatives": [
+            {
+                "text": "Delimitar a quantidade de caracteres do output",
+                "feedback": "Não é a definição correta. Delimitar a quantidade de caracteres é importante porém não faz parte do modo de exibição do output.",
+                "correct": false
+            },
+            {
+                "text": "Especificar o formato de output que o usuário irá ler",
+                "feedback": "Correto! Definir o formato de output significa especificar o formato em que os prompts interativos serão renderizados.",
+                "correct": true
+            },
+            {
+                "text": "Ignorar a renderização dos prompts",
+                "feedback": "Não é a definição correta. A renderização dos prompts interativos é importante para uma melhor experiência do usuário.",
+                "correct": false
+            },
+            {
+                "text": "Dar instruções para o chat GPT captar sentimentos no texto",
+                "feedback": "Não é a definição correta. Captar sentimentos é uma instrução de texto e não uma definição do preview do output",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-008",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "chat GPT",
+            "obtenção de bons resultados"
+        ],
+        "text": [
+            "Quais são as técnicas utilizadas para obter bons resultados no chat GPT?"
+        ],
+        "alternatives": [
+            {
+                "text": "Aumentar a complexidade dos inputs e aumentar a quantidade de caracteres",
+                "feedback": "Não é a técnica correta. Aumentar a complexidade dos inputs pode dificultar a geração de respostas relevantes.",
+                "correct": false
+            },
+            {
+                "text": "Fornecer instruções claras e específicas e delimitar a quantidade de caracteres",
+                "feedback": "Correto! Fornecer instruções claras e específicas ao chat GPT é fundamental para obter bons resultados.",
+                "correct": true
+            },
+            {
+                "text": "Reduzir o tamanho do prompt",
+                "feedback": "Não é a técnica correta. Reduzir o tamanho do prompt pode afetar negativamente a qualidade das respostas.",
+                "correct": false
+            },
+            {
+                "text": "Ignorar a entrada do usuário",
+                "feedback": "Não é a técnica correta. Ignorar a entrada do usuário pode levar a respostas irrelevantes.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-009",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "prompt engineering",
+            "output de visualização",
+            "chat GPT"
+        ],
+        "text": [
+            "O que é prompt engineering?"
+        ],
+        "alternatives": [
+            {
+                "text": "A otimização de palavras-chave no prompt",
+                "feedback": "Não é a definição correta. O prompt engineering envolve mais do que apenas a otimização de palavras-chave.",
+                "correct": false
+            },
+            {
+                "text": "O processo de ajuste fino dos parâmetros do modelo GPT",
+                "feedback": "Não é a definição correta. O prompt engineering não está relacionado ao ajuste fino dos parâmetros do modelo.",
+                "correct": false
+            },
+            {
+                "text": "A prática de projetar e modificar o prompt para obter melhores resultados",
+                "feedback": "Correto! O prompt engineering envolve a prática de projetar e modificar o prompt para obter melhores resultados nas respostas do chat GPT.",
+                "correct": true
+            },
+            {
+                "text": "A redução da complexidade das perguntas feitas ao chat GPT",
+                "feedback": "Não é a definição correta. O prompt engineering não se refere à redução da complexidade das perguntas.",
                 "correct": false
             }
         ]
