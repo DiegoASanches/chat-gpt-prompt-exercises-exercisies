@@ -1,3 +1,122 @@
 [
-    
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "Angular"],
+        "text": [
+            "Qual é a etapa inicial para gerar um projeto Angular?"
+        ],
+        "alternatives": [
+            {
+                "text": "Executar o comando ng new",
+                "feedback": "Correto! O comando 'ng new' é utilizado para gerar um novo projeto Angular.",
+                "correct": true
+            },
+            {
+                "text": "Instanciar o HttpClientModule",
+                "feedback": "Correto! O HttpClientModule deve ser instanciado para acessar a API.",
+                "correct": true
+            },
+            {
+                "text": "Criar o arquivo openAi.service.ts",
+                "feedback": "Correto! O serviço chamado openAi.service.ts deve ser criado para chamar o endpoint /ask.",
+                "correct": true
+            },
+            {
+                "text": "O resultado retornado pela API",
+                "feedback": "Correto! O resultado retornado pela API deve ser renderizado na tela.",
+                "correct": true
+            },
+            {
+                "text": "httpClientModule",
+                "feedback": "Correto! O HttpClientModule é o módulo necessário para acessar a API.",
+                "correct": true
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "Angular"],
+        "text": [
+            "O que é necessário fazer para acessar a API do OpenAI?"
+        ],
+        "alternatives": [
+            {
+                "text": "Instanciar o HttpClientModule",
+                "feedback": "Correto! O HttpClientModule deve ser instanciado para acessar a API.",
+                "correct": true
+            },
+            {
+                "text": "Criar uma aplicação Angular",
+                "feedback": "Incorreto. O objetivo deste tutorial é criar uma aplicação Angular para consumir a API do OpenAI."
+            },
+            {
+                "text": "openAi.service.ts",
+                "feedback": "Correto! O arquivo openAi.service.ts é criado para chamar o endpoint /ask.",
+                "correct": true
+            },
+            {
+                "text": "O resultado retornado pela API",
+                "feedback": "Correto! O resultado retornado pela API deve ser renderizado na tela.",
+                "correct": true
+            },
+            {
+                "text": "Configurar o servidor em Node.js",
+                "feedback": "Incorreto. O servidor em Node.js foi configurado nas aulas anteriores, não é o objetivo principal deste tutorial."
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "Angular"],
+        "text": [
+            "Qual é o objetivo do arquivo 'server' criado nas aulas anteriores?"
+        ],
+        "alternatives": [
+            {"text": "Renderizar o resultado da OpenAI", "feedback": "Essa alternativa está incorreta. O arquivo 'server' criado tem um objetivo diferente.", "correct": false},
+            {"text": "Gerar um projeto Angular", "feedback": "Essa alternativa está incorreta. O arquivo 'server' não é responsável por gerar um projeto Angular.", "correct": false},
+            {"text": "Criar uma aplicação Angular do zero", "feedback": "Essa alternativa está incorreta. O arquivo 'server' não cria uma aplicação Angular.", "correct": false},
+            {"text": "Criar um servidor em Node.js para fazer a chamada na API do OpenAI", "feedback": "Isso mesmo! O objetivo do arquivo 'server' é fazer a chamada na API do OpenAI utilizando a biblioteca openAI do npm", "correct": true}
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "Angular"],
+        "text": [
+            "Após chamar o endpoint '/ask', o que devemos fazer para renderizar o resultado na tela?"
+        ],
+        "alternatives": [
+            {"text": "Utilizar uma diretiva do Angular para renderização", "feedback": "Essa alternativa está incorreta. Não é necessário utilizar uma diretiva específica para renderizar o resultado.", "correct": false},
+            {"text": "Atribuir o resultado a uma variável e exibi-lo no template", "feedback": "Isso mesmo! Após receber o resultado, podemos atribuí-lo a uma variável e exibi-lo no template para renderização.", "correct": true},
+            {"text": "Utilizar uma função de renderização nativa do JavaScript", "feedback": "Essa alternativa está incorreta. No Angular, a renderização é feita através do template e não é necessário utilizar funções nativas do JavaScript.", "correct": false},
+            {"text": "Criar um novo componente para exibir o resultado", "feedback": "Essa alternativa está incorreta. Não é necessário criar um novo componente apenas para exibir o resultado.", "correct": false}
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "Angular"],
+        "text": [
+            "Qual é a finalidade do módulo 'HttpClientModule' no Angular?"
+        ],
+        "alternatives": [
+            {"text": "Permitir o acesso e a comunicação com APIs externas por meio de requisições HTTP", "feedback": "Isso mesmo! O 'HttpClientModule' é responsável por permitir o acesso e a comunicação com APIs externas por meio de requisições HTTP.", "correct": true},
+            {"text": "Gerenciar as rotas e a navegação entre componentes no Angular", "feedback": "Essa alternativa está incorreta. O gerenciamento de rotas e navegação é realizado pelo módulo 'RouterModule', não pelo 'HttpClientModule'.", "correct": false},
+            {"text": "Manipular os eventos do DOM e interagir com elementos HTML no Angular", "feedback": "Essa alternativa está incorreta. A manipulação de eventos do DOM e interação com elementos HTML são tarefas realizadas pelo Angular em geral, não pelo 'HttpClientModule'.", "correct": false},
+            {"text": "Gerar componentes, serviços e diretivas no Angular", "feedback": "Essa alternativa está incorreta. A geração de componentes, serviços e diretivas é realizada pelo Angular CLI, não pelo 'HttpClientModule'.", "correct": false}
+        ]
+    }
 ]
