@@ -1,0 +1,115 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["ngx-typed-js", "implementação", "Angular"],
+        "text": [
+            "O que é o ngx-typed-js em uma aplicação Angular?"
+        ],
+        "alternatives": [
+            {"text": "Um pacote de animações pré-definidas para Angular.", "feedback": "Essa alternativa está incorreta. O ngx-typed-js não é um pacote de animações pré-definidas.", "correct": false},
+            {"text": "Uma biblioteca para criar formulários dinâmicos no Angular.", "feedback": "Essa alternativa está incorreta. O ngx-typed-js não é uma biblioteca para criar formulários dinâmicos.", "correct": false},
+            {"text": "Uma biblioteca para adicionar efeitos de digitação em tempo real em elementos de texto.", "feedback": "Isso mesmo! O ngx-typed-js é uma biblioteca que permite adicionar efeitos de digitação em tempo real em elementos de texto no Angular.", "correct": true},
+            {"text": "Uma ferramenta para melhorar o desempenho de aplicações Angular.", "feedback": "Essa alternativa está incorreta. O ngx-typed-js não é uma ferramenta para melhorar o desempenho de aplicações Angular.", "correct": false}
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["Prism.js", "implementação", "Angular"],
+        "text": [
+            "O que é o Prism.js em uma aplicação Angular?"
+        ],
+        "alternatives": [
+            {"text": "Um framework para criação de componentes visuais no Angular.", "feedback": "Essa alternativa está incorreta. O Prism.js não é um framework para criação de componentes visuais.", "correct": false},
+            {"text": "Uma biblioteca para criar animações em aplicações Angular.", "feedback": "Essa alternativa está incorreta. O Prism.js não é uma biblioteca para criação de animações.", "correct": false},
+            {"text": "Uma biblioteca para realizar validações de formulários no Angular.", "feedback": "Essa alternativa está incorreta. O Prism.js não é uma biblioteca para realizar validações de formulários.", "correct": false},
+            {"text": "Uma biblioteca para destacar a sintaxe de código em um projeto Angular.", "feedback": "Isso mesmo! O Prism.js é uma biblioteca que permite destacar a sintaxe de código em um projeto Angular, facilitando a leitura e compreensão do código.", "correct": true}
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["Manipulação de Dados", "Requisição", "OpenAI", "Angular"],
+        "text": [
+            "Após realizar uma requisição para a API do OpenAI em um projeto Angular, como você pode manipular o resultado recebido?",
+            "Qual é a abordagem correta para trabalhar com os dados retornados pela API?"
+        ],
+        "alternatives": [
+            {"text": "Você não pode manipular o resultado da requisição do OpenAI em um projeto Angular.", "feedback": "Essa alternativa está incorreta. É possível manipular o resultado da requisição do OpenAI no Angular.", "correct": false},
+            {"text": "Você pode apenas exibir o resultado diretamente no template sem nenhuma manipulação.", "feedback": "Essa alternativa está incorreta. Embora seja possível exibir o resultado diretamente no template, é comum realizar manipulações antes de apresentá-lo ao usuário.", "correct": false},
+            {"text": "Você pode usar os Observables do Angular para manipular os dados recebidos de forma assíncrona.", "feedback": "Isso mesmo! Após receber o resultado da requisição, você pode usar os Observables do Angular para manipular os dados de forma assíncrona e exibi-los de acordo com as necessidades da aplicação.", "correct": true},
+            {"text": "Você pode manipular o resultado diretamente no componente que fez a requisição, sem a necessidade de Observables.", "feedback": "Essa alternativa está incorreta. Embora seja possível manipular diretamente no componente, é recomendado o uso de Observables para uma abordagem mais assíncrona e reativa.", "correct": false}
+        ]
+    },
+    {
+        "SKU": "BE-TS-04",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "GPT-3.5-turbo", "JSON Response", "Message Structure"],
+        "text": [
+            "Ao utilizar o modelo de linguagem GPT-3.5-turbo da OpenAI, como você pode acessar a mensagem gerada no JSON de resposta?",
+        ],
+        "alternatives": [
+            {
+                "text": "A mensagem gerada está localizada em response.data.choices[0].message.",
+                "feedback": "Isso mesmo! Ao utilizar o modelo GPT-3.5-turbo da OpenAI, a mensagem gerada é acessada através de response.data.choices[0].message no JSON de resposta.",
+                "correct": true
+            },
+            {
+                "text": "A mensagem gerada está localizada em response.data.message[0].choices.",
+                "feedback": "Essa alternativa está incorreta. A estrutura para acessar a mensagem gerada é diferente.",
+                "correct": false
+            },
+            {
+                "text": "A mensagem gerada está localizada em response.message[0].data.choices.",
+                "feedback": "Essa alternativa não está correta. A estrutura para acessar a mensagem gerada não segue esse padrão.",
+                "correct": false
+            },
+            {
+                "text": "A mensagem gerada está localizada em response.choices[0].data.message.",
+                "feedback": "Essa alternativa não está correta. A estrutura para acessar a mensagem gerada é diferente do apresentado.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-05",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["Observables", "RxJS", "OpenAI", "Requisições", "Manipulação"],
+        "text": [
+            "No contexto do Angular e utilizando a biblioteca RxJS, como os Observables podem ser úteis para manipular as requisições feitas para a API do OpenAI?",
+        ],
+        "alternatives": [
+            {
+                "text": "Observables permitem que você realize várias requisições simultaneamente para a API do OpenAI, aumentando a velocidade de resposta da aplicação.",
+                "feedback": "Essa alternativa está incorreta. Embora os Observables permitam trabalhar com várias requisições, eles não aumentam automaticamente a velocidade de resposta da aplicação.",
+                "correct": false
+            },
+            {
+                "text": "Observables fornecem uma maneira de trabalhar com requisições assíncronas, permitindo que você manipule facilmente as respostas da API do OpenAI à medida que são retornadas.",
+                "feedback": "Isso mesmo! A principal vantagem dos Observables é que eles lidam de forma eficiente com requisições assíncronas, permitindo que você manipule as respostas da API do OpenAI à medida que elas são recebidas, evitando callbacks aninhados e tornando o código mais legível e organizado.",
+                "correct": true
+            },
+            {
+                "text": "Observables são úteis apenas para trabalhar com requisições síncronas e não podem ser aplicados ao lidar com a API do OpenAI.",
+                "feedback": "Essa alternativa está incorreta. Observables são especialmente úteis para lidar com requisições assíncronas e podem ser aplicados ao trabalhar com a API do OpenAI.",
+                "correct": false
+            },
+            {
+                "text": "Observables permitem que você faça chamadas para a API do OpenAI de forma mais segura e evita erros de manipulação de dados.",
+                "feedback": "Essa alternativa não está correta. Embora Observables facilitem o tratamento de dados assíncronos, eles não são uma medida de segurança contra erros de manipulação de dados e nem uma maneira exclusiva de manipular dados do OpenAI.",
+                "correct": false
+            }
+        ]
+    }
+]
