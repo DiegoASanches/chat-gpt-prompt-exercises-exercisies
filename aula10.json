@@ -9,10 +9,26 @@
             "O que é o ngx-typed-js em uma aplicação Angular?"
         ],
         "alternatives": [
-            {"text": "Um pacote de animações pré-definidas para Angular.", "feedback": "Essa alternativa está incorreta. O ngx-typed-js não é um pacote de animações pré-definidas.", "correct": false},
-            {"text": "Uma biblioteca para criar formulários dinâmicos no Angular.", "feedback": "Essa alternativa está incorreta. O ngx-typed-js não é uma biblioteca para criar formulários dinâmicos.", "correct": false},
-            {"text": "Uma biblioteca para adicionar efeitos de digitação em tempo real em elementos de texto.", "feedback": "Isso mesmo! O ngx-typed-js é uma biblioteca que permite adicionar efeitos de digitação em tempo real em elementos de texto no Angular.", "correct": true},
-            {"text": "Uma ferramenta para melhorar o desempenho de aplicações Angular.", "feedback": "Essa alternativa está incorreta. O ngx-typed-js não é uma ferramenta para melhorar o desempenho de aplicações Angular.", "correct": false}
+            {
+				"text": "Um pacote de animações pré-definidas para Angular.", 
+				"feedback": "Essa alternativa está incorreta. O ngx-typed-js não é um pacote de animações pré-definidas.", 
+				"correct": false
+			},
+            {
+				"text": "Uma biblioteca para criar formulários dinâmicos no Angular.", 
+				"feedback": "Essa alternativa está incorreta. O ngx-typed-js não é uma biblioteca para criar formulários dinâmicos.", 
+				"correct": false
+			},
+            {
+				"text": "Uma biblioteca para adicionar efeitos de digitação em tempo real em elementos de texto.", 
+				"feedback": "Isso mesmo! O ngx-typed-js é uma biblioteca que permite adicionar efeitos de digitação em tempo real em elementos de texto no Angular.", 
+				"correct": true
+			},
+            {
+				"text": "Uma ferramenta para melhorar o desempenho de aplicações Angular.", 
+				"feedback": "Essa alternativa está incorreta. O ngx-typed-js não é uma ferramenta para melhorar o desempenho de aplicações Angular.", 
+				"correct": false
+			}
         ]
     },
     {
