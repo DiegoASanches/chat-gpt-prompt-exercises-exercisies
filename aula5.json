@@ -19,8 +19,8 @@
                 "correct": false
             },
             {
-                "text": "12 tokens",
-                "feedback": "Correto! Para calcular a quantidade aproximada de tokens, dividimos o texto em unidades menores, considerando que um token normalmente tem em média 4 caracteres. Nesse texto, temos aproximadamente 12 tokens.",
+                "text": "10 tokens",
+                "feedback": "Correto! Para calcular a quantidade aproximada de tokens, dividimos o texto em unidades menores, considerando que um token normalmente tem em média 4 caracteres. Você pode verificar no seguinte site: https://platform.openai.com/tokenizer",
                 "correct": true
             },
             {

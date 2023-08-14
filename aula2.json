@@ -15,17 +15,17 @@
             {
                 "text": "Tendência a gerar respostas irrelevantes ou fora de contexto.",
                 "feedback": "Isso ocorre devido à natureza do modelo de linguagem, que pode resultar em respostas que não são relevantes para a pergunta ou estão fora de contexto.",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Dificuldade em lidar com perguntas ambíguas ou mal formuladas.",
                 "feedback": "O Chat GPT pode ter dificuldade em compreender perguntas que são ambíguas ou mal formuladas, levando a respostas inadequadas.",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Possibilidade de gerar respostas enviesadas ou propagar desinformação.",
                 "feedback": "Devido ao treinamento em grandes conjuntos de dados da Internet, o Chat GPT pode ocasionalmente gerar respostas enviesadas ou propagar desinformação sem intenção.",
-                "correct": false
+                "correct": true
             },
             {
                 "text": "Todas as opções acima",

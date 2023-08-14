@@ -67,7 +67,8 @@
             },
             {
                 "text": "Configurar o servidor em Node.js",
-                "feedback": "Incorreto. O servidor em Node.js foi configurado nas aulas anteriores, não é o objetivo principal deste tutorial."
+                "feedback": "Incorreto. O servidor em Node.js foi configurado nas aulas anteriores, não é o objetivo principal deste tutorial.",
+                "correct": false
             }
         ]
     },

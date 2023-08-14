@@ -55,7 +55,7 @@
         "language": "javascript",
         "tagsOrConcepts": ["OpenAI", "GPT-3.5-turbo", "JSON Response", "Message Structure"],
         "text": [
-            "Ao utilizar o modelo de linguagem GPT-3.5-turbo da OpenAI, como você pode acessar a mensagem gerada no JSON de resposta?",
+            "Ao utilizar o modelo de linguagem GPT-3.5-turbo da OpenAI, como você pode acessar a mensagem gerada no JSON de resposta?"
         ],
         "alternatives": [
             {
@@ -87,7 +87,7 @@
         "language": "javascript",
         "tagsOrConcepts": ["Observables", "RxJS", "OpenAI", "Requisições", "Manipulação"],
         "text": [
-            "No contexto do Angular e utilizando a biblioteca RxJS, como os Observables podem ser úteis para manipular as requisições feitas para a API do OpenAI?",
+            "No contexto do Angular e utilizando a biblioteca RxJS, como os Observables podem ser úteis para manipular as requisições feitas para a API do OpenAI?"
         ],
         "alternatives": [
             {

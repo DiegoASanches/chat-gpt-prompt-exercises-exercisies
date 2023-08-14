@@ -1,0 +1,168 @@
+[
+    {
+        "SKU": "BE-TS-001",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "RPM", "Maximum Tokens"],
+        "text": [
+            "Em relação aos modelos da OpenAI, o que significam as siglas RPM e máximo de tokens por requisição (RPM e Max Tokens)? Além disso, qual é a importância desses limites ao usar os modelos?"
+        ],
+        "alternatives": [
+            {
+                "text": "RPM refere-se a 'Requisições Por Minuto', que indica quantas vezes um modelo pode ser solicitado por minuto. Max Tokens se refere ao número máximo de palavras ou elementos que um modelo pode processar em uma única requisição. Esses limites são importantes para garantir a eficiência e a equidade no uso dos modelos, evitando sobrecarga nos servidores da OpenAI.",
+                "feedback": "Correto! Você explicou corretamente o significado de RPM e Max Tokens, bem como sua importância na utilização dos modelos.",
+                "correct": true
+            },
+            {
+                "text": "RPM significa 'Requisições Por Minuto', que se refere ao número máximo de tokens permitidos por minuto em uma requisição de um modelo. Max Tokens é a sigla para 'Máximo de Tokens', indicando o limite de solicitações que um modelo pode atender em um minuto. Esses limites são estabelecidos para garantir uma alocação justa de recursos de servidor.",
+                "feedback": "Incorreto. As definições que você forneceu para RPM e Max Tokens não estão corretas.",
+                "correct": false
+            },
+            {
+                "text": "RPM significa 'Requisições Por Minuto', referindo-se ao número máximo de respostas que um modelo pode gerar em um minuto. Max Tokens se refere ao tamanho máximo de um modelo em termos de arquitetura de rede neural. Esses limites são importantes para manter o controle de custos ao usar os modelos da OpenAI.",
+                "feedback": "Incorreto. Suas definições para RPM e Max Tokens não estão de acordo com as informações fornecidas.",
+                "correct": false
+            },
+            {
+                "text": "RPM é a sigla para 'Respostas Por Minuto', representando quantas vezes um modelo pode responder por minuto. Max Tokens se refere ao número máximo de solicitações que um modelo pode atender em um minuto. Esses limites são estabelecidos para garantir um desempenho consistente e confiável dos modelos.",
+                "feedback": "Incorreto. Suas definições para RPM e Max Tokens não estão de acordo com as informações fornecidas.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-002",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "GPT-3.5 Turbo", "Model Variants"],
+        "text": [
+            "Quais são as principais diferenças entre os modelos gpt-3.5-turbo-0613 e gpt-3.5-turbo-16k-0613 da OpenAI em relação a seu número máximo de tokens?"
+        ],
+        "alternatives": [
+            {
+                "text": "O modelo gpt-3.5-turbo-0613 suporta um máximo de 90,000 tokens, enquanto o modelo gpt-3.5-turbo-16k-0613 suporta até 180,000 tokens.",
+                "feedback": "Correto! Você destacou as diferenças em relação ao número máximo de tokens suportados por esses modelos.",
+                "correct": true
+            },
+            {
+                "text": "Ambos os modelos, gpt-3.5-turbo-0613 e gpt-3.5-turbo-16k-0613, suportam o mesmo número máximo de tokens, que é 90,000.",
+                "feedback": "Incorreto. Os modelos têm capacidades diferentes em relação ao número máximo de tokens.",
+                "correct": false
+            },
+            {
+                "text": "Tanto o modelo gpt-3.5-turbo-0613 quanto o modelo gpt-3.5-turbo-16k-0613 suportam até 250,000 tokens cada.",
+                "feedback": "Incorreto. As informações fornecidas não correspondem aos números reais de tokens suportados por esses modelos.",
+                "correct": false
+            },
+            {
+                "text": "Ambos os modelos, gpt-3.5-turbo-0613 e gpt-3.5-turbo-16k-0613, suportam até 3,500 tokens cada.",
+                "feedback": "Incorreto. Os modelos têm diferentes limites de tokens, como mencionado anteriormente.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-003",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": ["OpenAI", "GPT-4", "Vantagens", "Casos de Uso"],
+        "text": [
+            "Quais são as vantagens do uso do modelo GPT-4 da OpenAI em comparação com o GPT-3.5-turbo? Além disso, mencione pelo menos dois casos de uso específicos para o GPT-4."
+        ],
+        "alternatives": [
+            {
+                "text": "O GPT-4 oferece capacidade de compreensão de contexto ainda mais profunda, resultando em respostas mais coesas e precisas. Além disso, o GPT-4 suporta uma gama mais ampla de tarefas complexas, como desenvolvimento de software e pesquisa científica.",
+                "feedback": "Correto! O GPT-4 possui melhor compreensão de contexto e é mais versátil para tarefas complexas.",
+                "correct": true
+            },
+            {
+                "text": "O GPT-4 é apenas uma atualização marginal do GPT-3.5-turbo, sem benefícios significativos. Ele é mais adequado apenas para tarefas de redação simples.",
+                "feedback": "Incorreto. O GPT-4 possui vantagens substanciais e pode lidar com tarefas mais complexas.",
+                "correct": false
+            },
+            {
+                "text": "O GPT-4 é mais barato que o GPT-3.5-turbo e é recomendado para tarefas de geração de texto curto.",
+                "feedback": "Incorreto. As informações sobre preços não foram fornecidas, e o GPT-4 é mais avançado em vez de mais barato.",
+                "correct": false
+            },
+            {
+                "text": "O GPT-4 é voltado apenas para aplicações de entretenimento, como jogos e conversas informais.",
+                "feedback": "Incorreto. O GPT-4 tem uma gama mais ampla de aplicações além do entretenimento.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-004",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "tokens",
+            "OpenAI"
+        ],
+        "text": [
+            "Como a tecnologia da OpenAI utiliza tokens?"
+        ],
+        "alternatives": [
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para otimizar o tempo de resposta de consultas em bancos de dados.",
+                "feedback": "Essa alternativa está incorreta. Embora a OpenAI utilize tecnologia avançada, como a tokenização, seu foco principal é o processamento de linguagem natural e a geração de texto, não a otimização de bancos de dados.",
+                "correct": false
+            },
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para melhorar a compreensão de documentos e sequências de texto.",
+                "feedback": "Correto! A tecnologia da OpenAI utiliza tokens para representar unidades básicas de texto, permitindo uma melhor compreensão e processamento de documentos ou sequências de texto. Isso possibilita a geração de texto coerente e contextualmente relevante.",
+                "correct": true
+            },
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para realizar cálculos complexos em algoritmos de aprendizado de máquina.",
+                "feedback": "Essa alternativa está incorreta. Embora a OpenAI utilize algoritmos de aprendizado de máquina em sua tecnologia, os tokens não são usados para realizar cálculos complexos. Eles são usados principalmente para representar e processar texto.",
+                "correct": false
+            },
+            {
+                "text": "A tecnologia da OpenAI utiliza tokens para criar gráficos e visualizações de dados.",
+                "feedback": "Essa alternativa está incorreta. Embora a OpenAI possa utilizar tecnologias de visualização de dados, os tokens são principalmente usados para processamento de linguagem natural, não para criação de gráficos e visualizações.",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "SKU": "BE-TS-005",
+        "interpreter": 1,
+        "type": "MULT",
+        "language": "javascript",
+        "tagsOrConcepts": [
+            "tokenizer",
+            "custo-benefício"
+        ],
+        "text": [
+            "Qual o model que apresenta o melhor custo benefício considerando velocidade de processamento e preço?"
+        ],
+        "alternatives": [
+            {
+                "text": "GPT-3.5-turbo",
+                "feedback": "Correto! esse modelo custa Preço: $0.002 a cada 100 tokens com um rpm de 3,500",
+                "correct": true
+            },
+            {
+                "text": "ADA",
+                "feedback": "Incorreto! o modelo ADA não possui processamento tão poderoso quanto o GPT 3 ou 4 e possui um RPM de 3,000",
+                "correct": false
+            },
+            {
+                "text": "GPT-4",
+                "feedback": "Incorreto! o GPT-4 possui o processamento mais poderoso da OpenAI porém seu custo é o mais elevado dentre os modelos oferecidos.",
+                "correct": false
+            },
+            {
+                "text": "text-davinci-003",
+                "feedback": "Incorreto! Esse modelo possui um bom processamento de dados, porém possui um custo elevado.",
+                "correct": false
+            }
+        ]
+    }
+]
