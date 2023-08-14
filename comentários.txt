@@ -1,0 +1,10 @@
+AULA 01 - OK
+AULA 02 - Na questão 1, se todas são verdadeiras, todas devem ser true, assim como na 2.
+AULA 03 - Na questão 1, o número de tokens é 10, segundo https://platform.openai.com/tokenizer.
+AULA 04 - OK
+AULA 05 - OK
+AULA 06 - Arquivo vazio.
+AULA 07 - OK
+AULA 08 - OK
+AULA 09 - Faltam respostas para algumas questões.
+AULA 10 - Dificuldade na abertura do arquivo. Problema na estrutura(Vírgula depois da pergunta).
